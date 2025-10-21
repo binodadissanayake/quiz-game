@@ -1,2 +1,24 @@
-# quiz-game
-A fun and interactive web-based quiz application built with HTML, CSS, and JavaScript. Players can answer multiple-choice questions, track their scores, and review their answers. The game includes features like color feedback for correct/wrong answers, a timer, sound effects, and navigation to previous questions.
+# Quiz Game Project
+
+This is a simple quiz game made using HTML, CSS, and JavaScript. It features multiple screens, a timer, and sound effects.
+
+## Features
+- Multiple choice questions
+- Timer countdown
+- Sound effects for correct/incorrect answers
+- Beautiful user interface
+- Score screen at the end
+
+## Getting Started
+1. Clone the repository to your local machine.
+2. Open `index.html` in a web browser to start the quiz.
+
+## Technologies
+- HTML
+- CSS
+- JavaScript
+
+## Assets
+- Sound effects (correct/wrong/timer/background music) are required for the game to work fully.
+
+Enjoy the game!

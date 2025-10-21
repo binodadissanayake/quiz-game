@@ -1,0 +1,31 @@
+category,question,answer1,answer2,answer3,answer4,correctAnswer
+Science,What planet is known as the Red Planet?,Earth,Venus,Mars,Jupiter,3
+Science,What is the chemical symbol for water?,H2O,O2,CO2,N2,1
+Science,What gas do plants absorb from the atmosphere?,Oxygen,Nitrogen,Carbon Dioxide,Hydrogen,3
+Science,Which part of the human body pumps blood?,Lungs,Brain,Heart,Stomach,3
+Science,What force keeps us on the ground?,Friction,Gravity,Magnetism,Pressure,2
+Science,What part of the plant makes food?,Root,Stem,Leaf,Flower,3
+Science,Which planet is closest to the Sun?,Earth,Mercury,Mars,Venus,2
+Science,What is the largest organ in the human body?,Brain,Skin,Heart,Liver,2
+Science,What do bees collect from flowers?,Nectar,Pollen,Water,Seeds,1
+Science,What is the boiling point of water at sea level?,90°C,100°C,110°C,120°C,2
+Maths,What is 12 × 8?,96,108,84,102,1
+Maths,What is the square root of 64?,6,7,8,9,3
+Maths,What is 50% of 200?,50,100,150,200,2
+Maths,What is 15 + 28?,43,42,44,41,1
+Maths,What is 100 divided by 4?,20,25,30,40,2
+Maths,What is the value of π (pi) approximately?,2.14,3.14,4.13,3.41,2
+Maths,What is 9 squared?,18,72,81,27,3
+Maths,What is 7 × 6?,36,42,48,56,2
+Maths,What is 25% of 80?,10,15,20,25,3
+Maths,What is 0 divided by any number?,1,0,Infinity,Undefined,2
+ICT,What does HTML stand for?,Hyperlinks and Text Markup Language,Hyper Text Markup Language,Home Tool Markup Language,Hyper Text Machine Language,2
+ICT,What is the brain of a computer?,Motherboard,CPU,Memory,Hard Disk,2
+ICT,Which language is used for web apps?,Python,HTML,JavaScript,C,3
+ICT,What does CSS stand for?,Computer Style Sheets,Cascading Style Sheets,Colorful Style Sheets,Creative Style Sheets,2
+ICT,What does CPU stand for?,Central Process Unit,Central Processing Unit,Computer Personal Unit,Control Processing Unit,2
+ICT,What is the main function of RAM?,Store permanent data,Store temporary data,Perform calculations,Display images,2
+ICT,Which device is used for input?,Monitor,Keyboard,Printer,Speaker,2
+ICT,Which protocol is used for websites?,HTTP,FTP,SMTP,TCP,1
+ICT,What type of software is Windows?,Application Software,System Software,Utility Software,Driver Software,2
+ICT,What does URL stand for?,Uniform Resource Locator,Universal Resource Link,Uniform Reference Link,Universal Resource Locator,1

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="home-screen" class="screen">
+        <h1>WELCOME TO THE QUIZ GAME</h1>
+        <p>Test your knowledge with our exciting quiz</p>
+        <input type="text" id="name-input" class="name-input" placeholder="Enter your name" />
+        <button class="btn" onclick="proceedToCategory()">Start Quiz</button>
+    </div>
+
+    <div id="category-screen" class="screen">
+        <h2>Choose a Category</h2>
+        <p>Hello, <span id="player-name-display"></span>! Select your challenge:</p>
+        <div id="categories" style="display: flex; flex-direction: column; gap: 15px; margin-top: 20px;">
+            <button class="btn" onclick="startQuiz('Science')">Science 🧪</button>
+            <button class="btn" onclick="startQuiz('Maths')">Maths ➕</button>
+            <button class="btn" onclick="startQuiz('ICT')">ICT 💻</button>
+        </div>
+        <button class="btn" onclick="showScreen('home-screen')" style="margin-top: 20px; background: linear-gradient(45deg, #cc0000, #ff4d4d);">Back</button>
+    </div>
+
+    <div id="quiz-screen" class="screen">
+        <div id="timer">
+            <span id="time">01:00</span>
+        </div>
+        <h2 id="question">Question?</h2>
+        <div id="answers">
+            <button onclick="checkAnswer(0)" class="answer-btn">Answer 1</button>
+            <button onclick="checkAnswer(1)" class="answer-btn">Answer 2</button>
+            <button onclick="checkAnswer(2)" class="answer-btn">Answer 3</button>
+            <button onclick="checkAnswer(3)" class="answer-btn">Answer 4</button>
+        </div>
+        <div id="navigation">
+            <button onclick="goBack()" class="btn">Back</button>
+            <button onclick="nextQuestion()" class="btn">Next</button>
+        </div>
+    </div>
+
+    <div id="review-screen" class="screen">
+        <h2 id="review-title">Quiz Complete! Review Your Answers</h2>
+        <p>Your score: <strong id="review-score-display">0</strong> out of <span id="total-questions-display">0</span> questions.</p>
+        
+        <div class="review-container">
+            <ul id="review-list">
+                </ul>
+        </div>
+
+        <button class="btn" onclick="proceedToScoreboard()">View Final Scoreboard</button>
+    </div>
+
+    <div id="scoreboard-screen" class="screen">
+        <h2> Final Scoreboard</h2>
+        <p>Your Final Score: <span id="final-score"></span></p>
+        <p>High Score: <span id="high-score"></span></p>
+        <h3>Score History:</h3>
+        <ul id="score-history"></ul>
+        
+        <button class="btn" onclick="clearScoreHistory()" style="background: linear-gradient(90deg, #ff4d4d, #cc0000); margin-bottom: 15px;">Clear History</button>
+        
+        <button class="btn" onclick="restartGame()">Try Again</button>
+        <button class="btn" onclick="goHome()">Go to Home</button>
+    </div>
+
+    <div id="game-over-screen" class="screen">
+        <h2> Time's Up!</h2>
+        <p>Your Final Score: <span id="game-over-score"></span></p>
+        <button class="btn" onclick="restartGame()">Try Again</button>
+        <button class="btn" onclick="goHome()">Go to Home</button>
+    </div>
+
+    <audio id="gamemusic-6082" loop>
+        <source src="assets/gamemusic-6082.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <button id="mute-btn" class="btn">
+        <i class="fas fa-volume-up"></i>
+    </button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
